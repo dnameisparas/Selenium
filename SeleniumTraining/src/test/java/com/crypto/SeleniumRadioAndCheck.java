@@ -16,7 +16,7 @@ public class SeleniumRadioAndCheck {
 
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
-
+	
 		// RADIO BUTTON
 
 		WebElement radio2 = driver.findElement(By.xpath("//*[@value='radio2']"));
