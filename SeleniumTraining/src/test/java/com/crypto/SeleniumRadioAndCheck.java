@@ -19,7 +19,7 @@ public class SeleniumRadioAndCheck {
 	
 		// RADIO BUTTON
 
-		WebElement radio2 = driver.findElement(By.xpath("//*[@value='radio2']"));
+		WebElement radio2= driver.findElement(By.xpath("//*[@value='radio2']"));
 		radio2.click();
 		System.out.println(radio2.isSelected());
 		System.out.println(driver.findElements(By.xpath("//*[@name='radioButton']")).size());
